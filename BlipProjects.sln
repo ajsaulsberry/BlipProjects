@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blip.Entities", "Blip.Entit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blip.Data", "Blip.Data\Blip.Data.csproj", "{C8F46FA8-BEF3-4592-BD57-E5E9ECFCA1B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blip.Common", "Blip.Common\Blip.Common.csproj", "{7BC8455D-5B90-4A20-AED3-D988781494F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blip.Common.Tests", "Blip.Common.Tests\Blip.Common.Tests.csproj", "{9065974D-C6C2-482B-B1DF-57E0191FCB61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{C8F46FA8-BEF3-4592-BD57-E5E9ECFCA1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8F46FA8-BEF3-4592-BD57-E5E9ECFCA1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8F46FA8-BEF3-4592-BD57-E5E9ECFCA1B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC8455D-5B90-4A20-AED3-D988781494F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC8455D-5B90-4A20-AED3-D988781494F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC8455D-5B90-4A20-AED3-D988781494F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC8455D-5B90-4A20-AED3-D988781494F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9065974D-C6C2-482B-B1DF-57E0191FCB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9065974D-C6C2-482B-B1DF-57E0191FCB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9065974D-C6C2-482B-B1DF-57E0191FCB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9065974D-C6C2-482B-B1DF-57E0191FCB61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
