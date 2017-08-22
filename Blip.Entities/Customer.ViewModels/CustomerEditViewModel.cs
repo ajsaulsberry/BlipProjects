@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Web.Mvc;
 
-namespace Blip.Entities.Customer.ViewModel
+namespace Blip.Entities.Customer.ViewModels
 {
     public class CustomerEditViewModel
     {

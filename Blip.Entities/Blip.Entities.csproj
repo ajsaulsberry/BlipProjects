@@ -100,8 +100,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customer.ViewModel\CustomerDisplayViewModel.cs" />
-    <Compile Include="Customer.ViewModel\CustomerEditViewModel.cs" />
+    <Compile Include="Customer.ViewModels\CustomerDisplayViewModel.cs" />
+    <Compile Include="Customer.ViewModels\CustomerEditViewModel.cs" />
     <Compile Include="Customer\Customer.cs" />
     <Compile Include="Geographies\Country.cs" />
     <Compile Include="Geographies\Region.cs" />

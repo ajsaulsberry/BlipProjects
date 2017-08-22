@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Blip.Entities.Customer.ViewModels.CustomerDisplayViewModel>
+
+@{
+    ViewBag.Title = "Customer List";
+}
+
+<h2>Customer List</h2>
+<p>
+    To see the dropdown lists in action, click "Create New".
+</p>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CountryName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RegionName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach(var item in Model)
+{
+    < tr >
+        < td >
+            @Html.DisplayFor(modelItem => item.CustomerID)
+        </ td >
+        < td >
+            @Html.DisplayFor(modelItem => item.CustomerName)
+        </ td >
+        < td >
+            @Html.DisplayFor(modelItem => item.CountryName)
+        </ td >
+        < td >
+            @Html.DisplayFor(modelItem => item.RegionName)
+        </ td >
+        @*< td >
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </ td > *@
+    </ tr >
+}
+
+</table>
