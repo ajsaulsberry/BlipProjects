@@ -90,12 +90,18 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Context\Context.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Context\" />
     <Folder Include="Customer\" />
     <Folder Include="Geographies\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Blip.Entities\Blip.Entities.csproj">
+      <Project>{3a1ff2ca-e0aa-4e04-a082-b8fccd23f8f0}</Project>
+      <Name>Blip.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
