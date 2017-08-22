@@ -91,6 +91,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\Context.cs" />
+    <Compile Include="Migrations\201708222251192_InitialMigration.cs" />
+    <Compile Include="Migrations\201708222251192_InitialMigration.Designer.cs">
+      <DependentUpon>201708222251192_InitialMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -104,6 +108,11 @@
       <Project>{3a1ff2ca-e0aa-4e04-a082-b8fccd23f8f0}</Project>
       <Name>Blip.Entities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201708222251192_InitialMigration.resx">
+      <DependentUpon>201708222251192_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
