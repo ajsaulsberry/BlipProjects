@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blip.Web", "Blip.Web\Blip.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blip.Entities", "Blip.Entities\Blip.Entities.csproj", "{3A1FF2CA-E0AA-4E04-A082-B8FCCD23F8F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blip.Data", "Blip.Data\Blip.Data.csproj", "{C8F46FA8-BEF3-4592-BD57-E5E9ECFCA1B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3A1FF2CA-E0AA-4E04-A082-B8FCCD23F8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A1FF2CA-E0AA-4E04-A082-B8FCCD23F8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A1FF2CA-E0AA-4E04-A082-B8FCCD23F8F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F46FA8-BEF3-4592-BD57-E5E9ECFCA1B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F46FA8-BEF3-4592-BD57-E5E9ECFCA1B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F46FA8-BEF3-4592-BD57-E5E9ECFCA1B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F46FA8-BEF3-4592-BD57-E5E9ECFCA1B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
