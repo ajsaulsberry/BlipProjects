@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blip.Common", "Blip.Common\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blip.Common.Tests", "Blip.Common.Tests\Blip.Common.Tests.csproj", "{9065974D-C6C2-482B-B1DF-57E0191FCB61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blip.Data.Test", "Blip.Data.Test\Blip.Data.Test.csproj", "{E65CD5A8-7E54-4255-9E28-C6FA7D7E64A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blip.Entities.Test", "Blip.Entities.Test\Blip.Entities.Test.csproj", "{D18DA842-D5C9-4435-98F8-06C8E6C40CA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{9065974D-C6C2-482B-B1DF-57E0191FCB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9065974D-C6C2-482B-B1DF-57E0191FCB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9065974D-C6C2-482B-B1DF-57E0191FCB61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E65CD5A8-7E54-4255-9E28-C6FA7D7E64A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E65CD5A8-7E54-4255-9E28-C6FA7D7E64A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E65CD5A8-7E54-4255-9E28-C6FA7D7E64A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E65CD5A8-7E54-4255-9E28-C6FA7D7E64A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18DA842-D5C9-4435-98F8-06C8E6C40CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18DA842-D5C9-4435-98F8-06C8E6C40CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18DA842-D5C9-4435-98F8-06C8E6C40CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18DA842-D5C9-4435-98F8-06C8E6C40CA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
