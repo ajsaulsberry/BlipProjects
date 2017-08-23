@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration.Conventions;
 using Blip.Entities.Customer;
 using Blip.Entities.Geographies;
 
-namespace BlipDrop.Data
+namespace Blip.Data
 {
     public class ApplicationDbContext : DbContext
     {
