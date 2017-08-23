@@ -7,14 +7,14 @@ namespace Blip.Data.Migrations
     using System.Linq;
     using Blip.Entities.Geographies;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<BlipDrop.Data.ApplicationDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<Blip.Data.ApplicationDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(BlipDrop.Data.ApplicationDbContext context)
+        protected override void Seed(Blip.Data.ApplicationDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

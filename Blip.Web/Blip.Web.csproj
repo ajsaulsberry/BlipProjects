@@ -212,6 +212,10 @@
     <Content Include="Scripts\jquery-3.1.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Blip.Data\Blip.Data.csproj">
+      <Project>{c8f46fa8-bef3-4592-bd57-e5e9ecfca1b9}</Project>
+      <Name>Blip.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Blip.Entities\Blip.Entities.csproj">
       <Project>{3a1ff2ca-e0aa-4e04-a082-b8fccd23f8f0}</Project>
       <Name>Blip.Entities</Name>

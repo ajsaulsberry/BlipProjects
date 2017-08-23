@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 using System.Web.Mvc;
+using Blip.Data;
 using Blip.Entities.Customer.ViewModels;
 
-namespace BlipProjects.Controllers
+namespace Blip.Web.Controllers
 {
     public class CustomerController : Controller
     {
