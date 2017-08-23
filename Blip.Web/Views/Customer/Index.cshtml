@@ -31,25 +31,25 @@
 
 @foreach(var item in Model)
 {
-    < tr >
-        < td >
+    <tr>
+        <td>
             @Html.DisplayFor(modelItem => item.CustomerID)
-        </ td >
-        < td >
+        </td>
+        <td>
             @Html.DisplayFor(modelItem => item.CustomerName)
-        </ td >
-        < td >
+        </td>
+        <td>
             @Html.DisplayFor(modelItem => item.CountryName)
-        </ td >
-        < td >
+        </td>
+        <td>
             @Html.DisplayFor(modelItem => item.RegionName)
-        </ td >
+        </td>
         @*< td >
             @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
             @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
             @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
         </ td > *@
-    </ tr >
+    </tr>
 }
 
 </table>
