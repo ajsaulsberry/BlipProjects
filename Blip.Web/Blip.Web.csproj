@@ -205,9 +205,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Customer\Create.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
