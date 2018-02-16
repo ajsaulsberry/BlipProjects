@@ -57,3 +57,7 @@ This will create the database, apply Entity Framework migrations, and run the `S
     | Blip.Web | Web.config
 
 * The configuration strings specify the instance of SQL Server Express installed with Visual Studio 2017 as the target database server: `Data Source=(localdb)\ProjectsV13`. Developers using a different target database will have to change the connection strings in both projects.
+
+## License
+
+This project is licensed under the terms of the MIT license.
