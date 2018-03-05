@@ -62,6 +62,10 @@ This will create the database, apply Entity Framework migrations, and run the `S
 
 This project is licensed under the terms of the MIT license.
 
+## Contributing
+
+See the accompanying instructions on [How to contribute](CONTRIBUTING.md).
+
 ## Disclaimer of Warranties and Limitation of Liability
 
 The contents of this repository are offered on an as-is and as-available basis and the authors make no representations or warranties of any kind concerning the contents, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable.
