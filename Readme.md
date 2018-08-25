@@ -1,10 +1,10 @@
 # BlipProjects
 
-**_BlipProjects_** is an ASP.NET MVC case study solution to accompany a guide in the **PluralSight** [**HackGuides()**](https://www.pluralsight.com/guides/microsoft-net) collection for Microsoft .NET technologies.
+**_BlipProjects_** is an ASP.NET MVC case study solution to accompany a guide in the [**PluralSight Guides**](https://www.pluralsight.com/guides) collection for Microsoft .NET technologies.
 
-## PluralSight Hack.Guides()
+## PluralSight Guides
 
-[ASP.NET MVC - Creating solutions with separate projects for entities, data access, and website functionality](https://www.pluralsight.com/guides/microsoft-net/asp-net-mvc-creating-solutions-with-separate-projects-for-entities-data-access-and-website-functionality) - This guide shows how to structure a multi-project solution for a simple web application using Entity Framework and the Model-View-ViewModel (MVVM) design pattern along with the repository pattern.
+[ASP.NET MVC - Creating solutions with separate projects for entities, data access, and website functionality](https://www.pluralsight.com/guides/asp-net-mvc-creating-solutions-with-separate-projects-for-entities-data-access-and-website-functionality) - This guide shows how to structure a multi-project solution for a simple web application using Entity Framework and the Model-View-ViewModel (MVVM) design pattern along with the repository pattern.
 
 *Notice: PluralSight and the author(s) disclaim any liability for errors or omissions in this code. See the [Disclaimer of Warranties and Limitation of Liability](#disclaimer-of-warranties-and-limitation-of-liability) for complete information.*
 
